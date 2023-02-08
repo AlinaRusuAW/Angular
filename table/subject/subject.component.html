@@ -1,0 +1,15 @@
+<h1>Orarul cursurilor in cadrul Universitati</h1>
+    <table border="2" style="width:70%">
+        <tr>
+            <th>Id</th>
+            <th>Denumirea</th>
+            <th>Profesor</th>
+            <th>Grupa</th>
+        </tr>
+        <tr *ngFor = "let discip of disciplina">
+            <td>{{discip.id}}</td>
+            <td>{{discip.denumirea}}</td>
+            <td>{{discip.profesor}}</td>
+            <td>{{discip.grupa}}</td>
+        </tr>
+      </table>
